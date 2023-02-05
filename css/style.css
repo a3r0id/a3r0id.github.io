@@ -1,0 +1,38 @@
+html, body {
+    font-family: 'Roboto', sans-serif !important;
+    /* gradient background */
+    background: linear-gradient(90deg, rgba(13, 6, 15, 0.672) 0%, rgba(13, 9, 121, 0.607) 0%, rgba(208, 0, 255, 0.475) 100%) !important;
+}
+
+.navs{
+    user-select: none !important;
+    -ms-user-select: none !important;
+    -moz-user-select: none !important;
+    -webkit-user-select: none !important;
+}
+
+.navs li:hover{
+    color: rgb(200, 200, 200) !important;
+    text-shadow: 1px 1px 1px rgba(141, 141, 141, 0.713) !important;
+    text-decoration: underline !important;
+}
+
+.logo{
+    float: right !important;
+    font-weight: 400 !important;
+}
+
+.logo:hover{
+    color: rgb(255, 255, 255) !important;
+    text-shadow: none !important;
+}
+
+.logo img{
+    height: 20px !important;
+    float: left !important;
+}
+
+.logo div{
+    float: left !important;
+    margin-right: 5px !important;
+}
